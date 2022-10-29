@@ -1,2 +1,15 @@
 {
+    "workbench.colorTheme": "codeSTACKr Theme",
+    "editor.insertSpaces": false,
+    "editor.wordWrap": "on",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "workbench.iconTheme": "vscode-icons",
+    "code-runner.executorMap": {
+    
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "python": "python -u $fileName <inputPS15Q1.txt",
+    }
 }
