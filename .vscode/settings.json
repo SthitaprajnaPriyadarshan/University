@@ -10,6 +10,7 @@
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "python": "python -u $fileName <inputPS15Q1.txt",
+        "python": "python -u",
+        "python-backup": "python -u $fileName <inputPS15Q1.txt"
     }
 }
